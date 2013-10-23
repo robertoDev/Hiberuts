@@ -2,26 +2,29 @@
 body, TD {
     color: #606060;
     font-family: 'Droid Sans',Arial,Verdana,sans-serif;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 body {
     background-color: #e5e5e5;
     margin:20px;
+
 }
 
 .imgstyle {
  	margin: 15px;
   	border: 1px solid #777;
-  	xpadding: 4px;
 }
 
 a {
     color:#000;
 }
+
 .main-content {
     margin: 15px;
-    margin-top:170px;
+    margin-top: 190px;
     padding: 15px;
     background: #ffffc0;
     border:1px solid #999;
@@ -46,27 +49,9 @@ a {
 }
 
 
-
-
-#header{
-    position:absolute;
-    top:20px;
-    left:20px;
-    right:20px;
-    height:130px;
-    border:1px solid #999;
-    background: #fff;
-    -moz-box-shadow: 0 0 15px #c8c8c8;
-    -webkit-box-shadow: 0 0 15px #c8c8c8;
-    box-shadow: 0 0 15px #c8c8c8;
-}
-
-
-
-
 #mainList{
     position:absolute;
-    top:170px;
+    top:190px;
     left:20px;
     right:20px;
     bottom:20px;
@@ -97,6 +82,7 @@ a {
     border:1px solid #ccc;
 
 }
+
 #mainList th{
 background-color: #ffffc0;
 padding:5px;
@@ -107,15 +93,68 @@ color:#000;
 }
 
 
-.text1{
-    font-size:200%;
-    color:#000;
-}
-
-.imgstyle2{
-    height:111px;
-}
-
 .listDiv{
     height: 100%;border:1px solid red;overflow-y: auto
 }
+
+
+
+
+
+#header{
+    min-width:1060px;
+    position:absolute;
+    top:20px;
+    left:20px;
+    right:20px;
+    height:150px;
+
+    border:1px solid #999;
+    background: #fff;
+    -moz-box-shadow: 0 0 15px #c8c8c8;
+    -webkit-box-shadow: 0 0 15px #c8c8c8;
+    box-shadow: 0 0 15px #c8c8c8;
+}
+
+
+#header TABLE{
+    padding:0px 10px 0px 10px;
+
+}
+
+#header TD{
+    padding:10px 10px 10px 10px;
+
+}
+
+
+.headTitle{
+    font-weight: bold;
+    font-size:180%;
+    color:#222;
+    letter-spacing: 5px;
+}
+
+
+#headText{
+    height:94px;
+    overflow-y: auto;
+}
+
+
+#headContacts{
+    font-size:85%;
+    border-top:1px solid #999;
+    padding-top:5px;
+}
+
+#headContacts img{
+    vertical-align:middle;
+    margin-right:8px;
+    border:0;
+}
+
+.headImage{
+    height:90px;
+}
+

@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
   <head>
       <link href="style.css" rel="stylesheet" type="text/css">
@@ -14,7 +15,7 @@
               location.href="init.action";
           }
       </script>
-    <title></title>
+    <title>Hiberuts - info</title>
   </head>
   <body onload="go()">
   <%@include file="header.jsp"%>
