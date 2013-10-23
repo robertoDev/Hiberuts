@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Hiberuts</title>
+    <style type="text/css">
+    .centerc {
+        margin:20px 0 20px 0;
+        border: 1px solid #41b9e5;
+       	text-align:center;
+    }
+
+    .tc1{
+        color:blue;
+    }
+    .tc2{
+        color:#909020;
+    }
+
+    body {
+        color: #333;
+        font-family: 'Droid Sans',Arial,Verdana,sans-serif;
+        font-size: 15px;
+        text-align: justify;
+        line-height: 1.5;
+        background-color: #e5e5e5;
+    }
+
+	#footer{
+        text-align: center;
+        border-top: 2px solid #41b9e5;
+        padding-top:20px;
+	}
+
+
+    .extres{
+        background-color: #f5f5f5;
+        padding:20px;
+        border-radius:15px;
+        border: 1px solid #41b9e5;
+        margin:20px 50px 20px 20px;
+    }
+	.post-title {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        border-bottom: 2px solid #41b9e5;
+        display:block;
+    }
+
+    .title {
+           padding-bottom: 10px;
+           padding-top:22px;
+           font-size: 22px;
+          xfont-weight: bold;
+           display:block;
+       }
+
+
+
+        a{
+            color: #41b9e5
+        }
+
+.main-content {
+	background: #FFF;
+	margin:  auto;
+    margin-bottom:40px ;
+    margin-top:40px ;
+	position: relative;
+	-moz-box-shadow: 5px 5px 35px #999;
+	-webkit-box-shadow: 5px 5px 35px #999;
+    -shadow: 5px 5px 35px #999;
+	padding: 20px 60px 40px 60px;
+	max-width:800px;
+}
+    </style>
+
+</head>
+<body>
+<div class="main-content" >
+<span class="post-title" >Hiberuts </span>
+
+  Hiberuts &egrave; un'applicazione J2EE dimostrativa che illustra un semplice utilizzo di due tra i principali frameworks disponibili
+  in ambiente Java J2EE: Hibernate e Struts. L'applicazione &egrave; ospitata su Google App Engine (GAE), il database rappresenta la struttura dati semplificata di un
+  videonoleggio.<br>
+  Sull'utilit&agrave; del progetto c'&egrave; poco da dire: ha scopo puramente dimostrativo e permette di navigare attraverso le entit&agrave;
+    del  database seguendo le sue relazioni. Le entit&agrave; coinvolte sono: Attori, Film, Noleggi e Clienti, le relazioni permettono
+    di filtrare gli attori di un film paritcolare, i film interpretati da un attore, le operazioni di noleggio su un determinato film e
+    i noeggi di un determinato cliente.
+<br><br><br>
+
+    <div style="text-align:center;">
+        <a target="_new" href="http://hiberuts01.appspot.com/">
+            <img style="width:200px" src="images/link.png"  /><br>
+            http://hiberuts01.appspot.com/</a><br>
+    </div>
+
+
+    <span class="post-title" >Tecnologie </span>
+    <span class="title" >Hibernate </span>
+    Hibernate è una piattaforma middleware open source per lo sviluppo di applicazioni Java, che fornisce un servizio di
+    Object-relational mapping (ORM) ovvero gestisce la persistenza dei dati sul database attraverso la rappresentazione
+    e il mantenimento su database relazionale di un sistema di oggetti Java.<br>
+    Hibernate è stato originariamente sviluppato da un team internazionale di programmatori volontari coordinati
+    da Gavin King; in seguito il progetto è stato proseguito sotto l'egida di JBoss, che ne ha curato la
+    standardizzazione rispetto alle specifiche JPA in ambito Java EE. <i>(<a target="_new" href="http://it.wikipedia.org/wiki/Hibernate">Wikipedia</a>)</i> <br>
+    <div class="extres">
+        Sito ufficiale di Hibernate nella JBoss community:<br>
+        <a target="_new" href="http://www.hibernate.org/?">http://www.hibernate.org/?</a><br>
+        <br>
+        Alcune fonti introduttive in italiano su Hibernate:<br>
+        <a target="_new" href="http://www.html.it/articoli/introduzione-ad-hibernate/"> http://www.html.it/articoli/introduzione-ad-hibernate/</a><br>
+        <a target="_new" href="http://www.javahelp.it/index.php?introduzione-ad-hibernate"> http://www.javahelp.it/index.php?introduzione-ad-hibernate</a><br>
+    </div>
+
+    <span class="title" >Struts 2</span>
+    Apache Struts è un progetto open source sponsorizzato dalla Apache Software Foundation ed è l’implementazione Java server-side del design pattern MVC (Model View Controller).
+
+    Il progetto Struts è nato con l’intenzione di implementare un framework open-source per la creazione di applicazioni web che
+    permettesse la separazione del livello di presentazione e che fosse, allo stesso tempo, astratto dai vari livelli di dato
+    e dalle transizioni.<br>
+    La versione 2 di Struts risulta profondamente rinnovata rispetto alla precedente. In realtà il progetto è nato con il nome di WebWork,
+    che non ha nessun legame particolare con la versione 1 di Struts, per poi passare, dopo una prima fase di analisi e sviluppo,
+    al nome Struts 2. <i>(<a target="_new" href="http://www.html.it/articoli/introduzione-ad-apache-struts-1/">HTML.it</a>)</i> <br>
+    <div class="extres">
+        Sito ufficiale di Hibernate nella JBoss community:<br>
+        <a target="_new" href="http://struts.apache.org/?">http://struts.apache.org/?</a><br>
+        <br>
+        Introduzione a Struts su HTML.it:<br>
+        <a target="_new" href="http://www.html.it/articoli/introduzione-ad-apache-struts-1/"> http://www.html.it/articoli/introduzione-ad-apache-struts-1/</a><br>
+        <a target="_new" href="http://www.html.it/articoli/introduzione-a-struts-2-1//"> http://www.html.it/articoli/introduzione-a-struts-2-1//</a><br>
+    </div>
+    <span class="title" >MySql </span>
+    MySQL, ad oggi è uno dei più diffusi Relational database management system (RDBMS).<br>
+    MySQL è una scelta comune nello sviluppo di web application ed è un componente fondamentale della
+    cosiddetta LAMP, acronimo che sta ad indicare il più diffuso framework open source utilizzato in
+    ambito web ("Linux, Apache, MySQL, Perl/PHP/Python.").<i>(<a target="_new" href="http://en.wikipedia.org/wiki/MySQL">Wikipedia</a>)</i> <br>
+    <div class="extres">
+        Sito ufficiale MySql :<br>
+        <a target="_new" href="http://www.mysql.com?">http://www.mysql.com?</a><br>
+        <br>
+        Fonti introduttive a MySql:<br>
+        <a target="_new" href="http://www.html.it/pag/32138/download-e-installazione-di-mysql/">http://www.html.it/pag/32138/download-e-installazione-di-mysql/</a><br>
+        <a target="_new" href="http://www.baravalle.it/articoli/4"> http://www.baravalle.it/articoli/4</a><br>
+    </div>
+
+
+    <span class="title" >Google Cloud Platform </span>
+    Google Cloud Platform (GCP) è la piattaforma integrata di servizi cloud proposta da Google.<br>
+    Nell'ambito di GCP <b>Google App Engine</b> è l'application server che permette l’hosting
+    di applicazioni Java, Python, Go e PHP. In pratica permette di sviluppare, testare, implementare e gestire le applicazioni web
+    senza i costi e la complessità associati all'acquisto, la configurazione, l'ottimizzazione e la gestione dell'hardware e del software
+    di base.<br>
+    Sempre nell'ambito di GCP <b>Google Cloud SQL</b>  è il servizio che permette di
+    utilizzare database relazionali all'interno delle nostre applicazioni cloud, direttamente derivato da MySQL.<br>
+    I servizi di GCP sono forniti in modalità PaaS (Platform as a service), in genere è disponibile un accesso base gratuito per volumi limitati
+    di traffico/storage/computazione che permette di sperimentare facilmente senza spese iniziali.<br>
+    <div class="extres">
+        Home page di Google App Engine e Google Cloud SQL: <br>
+        <a target="_new" href="https://developers.google.com/appengine/">https://developers.google.com/appengine/</a><br>
+        <a target="_new" href="https://developers.google.com/cloud-sql/">https://developers.google.com/cloud-sql/</a><br>
+        <br>
+        Pagina di Google Cloud Platform su Google+:<br>
+        <a target="_new" href="https://plus.google.com/u/0/+googlecloudplatform/">https://plus.google.com/u/0/+googlecloudplatform/</a><br>
+    </div>
+
+
+    <span class="post-title" >Realizzazione</span>
+    Questo non vuole essere un tutorial dettagliato  ma una semplice veduta d'insieme di come sono state usate le tecnologie illustrate
+    nella realizzazione del progetto. Strumento di sviluppo principale è stato Intellij Idea, una IDE Java commerciale disponibile
+    in versione "community" sotto licenza Apache2.<br>
+
+
+    <span class="title" >Database</span>
+    Il database a cui fa riferimento l'applicazione è una parte del DB Sakila, utilizzato spesso per scopi dimostrativi con MySQL.<br>
+    Il mapping tra le tabelle e le classi Java è stato realizzato tramite annotations, secondo lo standard previsto da JPA. Ad esempio la
+    classe Actor viene annotata in <a target="_new" href="https://github.com/robertoDev/Hiberuts/blob/master/src/it/blackcat/hiberuts/model/Actor.java">questo modo</a>.<br>
+    La struttura comprende 4 entità: Film, Attori, Noleggi e clienti e le seguenti relazioni che li legano:<br>
+    Film <-> Attore  (n .. n)<br>
+    Film <--> Noleggio ( 1 .. n)<br>
+    Noleggio <--> Cliente (n .. 1)<br>
+    Questo è il diagramma ER come appare nell'ambiente di persistenza di Intellij Idea:
+    <div class="centerc">
+   		<img class="imgstyle" src="images/diagram.png">
+   	</div>
+    Per semplificare le tabelle e relazioni necessarie è stata creata una vista "ExtRental" non disponibile nel db originale
+    che combina le due tabelle rental e inventory non usate direttamente nel progetto.<br>
+    Questa l'istruzione sql per creare
+    la vista mancante:
+    <div class="extres">
+        <pre >
+<span class="tc1">CREATE VIEW</span> <span class="tc2">`sakila`</span>.<span class="tc2">`ext_rental`</span> <span class="tc1">AS</span>
+    <span class="tc1">select</span> rental.rental_id,rental.rental_date,rental.customer_id,
+        inventory.film_id,inventory.store_id
+    <span class="tc1">from</span> sakila.rental
+    <span class="tc1">inner join</span> sakila.inventory
+        <span class="tc1">on</span> rental.inventory_id=inventory.inventory_id ;</pre>
+    </div>
+
+
+    <span class="title" >Integrazione con Google Cloud Platform</span>
+    L'integrazione di un'applicazione con Google Cloud Platform richiede alcune accortezze. Non bisogna dimenticare che Google App Engine
+    <u>non è</u> un J2EE application server e Google Cloud SQL <u>non è</u> MySQL, anche se entrambi ci assomigliano molto.
+    Innanzitutto è necessario crearsi un account, una application su GAE e un database su GCSQL.<br>
+    Per utilizzare Struts2 su GAE è necessario inizializzare correttamente l'OgnlRuntime, in Hiberuts questo viene fatto
+    nel <a target="_new" href="https://github.com/robertoDev/Hiberuts/blob/master/src/it/blackcat/hiberuts/ServletContext.java">ServletContextListener</a>:
+    <br>
+    <pre>    OgnlRuntime.setSecurityManager(null);</pre>
+
+    Altra cosa importante è fornire il corretto driver per il database: su Google Cloud SQL il driver da usare è com.mysql.jdbc.GoogleDriver
+    e l'url per la connessione è del tipo: jdbc:google:mysql://<i>istanza</i>/<i>database</i>.<br>
+    Nella classe <a target="_new" href="https://github.com/robertoDev/Hiberuts/blob/master/src/it/blackcat/hiberuts/EMF.java">EMF</a> ho aggiunto una condizione per poter caricare i giusti parametri di connessione nel caso in cui l'applicazione
+    venga eseguita in un ambiente locale piuttosto che su GAE.<br>
+    Infine, nonostante Google fornisca un completo SDK che permette di sviluppare le applicazioni per GAE su un server locale, per
+    questo progetto particolare non sono riuscito a farlo funzionare correttamente per cui ho testato l'applicazione su un Tomcat 6.<br>
+    <div class="extres">
+        Integrazione di Hibernate con GAE:<br>
+        <a target="_new" href="https://developers.google.com/appengine/articles/using_hibernate">https://developers.google.com/appengine/articles/using_hibernate</a><br>
+        <br>
+        Integrazione di Struts2 con GAE:<br>
+        <a target="_new" href="http://www.mkyong.com/google-app-engine/google-app-engine-struts-2-example/">http://www.mkyong.com/google-app-engine/google-app-engine-struts-2-example/</a><br>
+    </div>
+
+
+    <span class="title" >Librerie</span>
+    Al progetto vanno aggiunte le librerie di Struts2 e Hibernate, in particolare ho usato la versione 4.1.8 di Hibernate e la 2.3.15 di Struts.
+    Oltre a queste, per testare il programma in un ambiente locale, può servire il driver di MySQL.<br>
+    Questo il dettaglio delle librerie che
+    ho utilizzato nel progetto:<br>
+    <div class="centerc">
+   		<img class="imgstyle" src="images/libraries.jpg">
+   	</div>
+
+
+    <span class="title" >GitHub</span>
+    Tutti i sorgenti e le risorse del progetto sono consultabili/scaricabili su GitHub:<br>
+    <a target="_new" href="https://github.com/robertoDev/Hiberuts">https://github.com/robertoDev/Hiberuts</a><br>
+    Per chiarimenti, commenti, critiche(?) e complimenti... potete far riferimento al mio <a target="_new" href="https://plus.google.com/u/0/104253129714256975554/about"> profilo Google+</a>
+    <br><br>
+
+
+	<div id="footer">
+    <img src="images/favicon.ico" width="20"/> &copy; 2013 Blackcat Software
+    </div>
+</div>
+
+</body>
+</html>
+

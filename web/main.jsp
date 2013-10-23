@@ -15,7 +15,6 @@
           }
           #maintable TD{
               text-align:center;
-              xborder:1px solid red;
           }
 
 

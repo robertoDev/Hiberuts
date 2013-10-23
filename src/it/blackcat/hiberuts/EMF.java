@@ -9,21 +9,6 @@ public final class EMF {
 
     static {
 
-/*
-            Map<String, String> properties = new HashMap();
-            if (SystemProperty.environment.value() == SystemProperty.Environment.Value.Production) {
-              properties.put("javax.persistence.jdbc.driver","com.mysql.jdbc.GoogleDriver");
-              properties.put("javax.persistence.jdbc.url",System.getProperty("cloudsql.url"));
-            } else {
-              properties.put("javax.persistence.jdbc.driver","com.mysql.jdbc.Driver");
-              properties.put("javax.persistence.jdbc.url","jdbc:mysql://localhost/sakila");
-            }
-
-
-
-
-
-*/
             Map<String, String> properties = new HashMap();
             if("homeuser".equals(System.getenv().get("USERNAME"))){
                 properties.put("javax.persistence.jdbc.driver","com.mysql.jdbc.Driver");

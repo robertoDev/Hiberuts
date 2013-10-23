@@ -103,17 +103,4 @@ public class Actor {
         this.films = films;
     }
 
-/*
-
-    private Set<Film> films = new HashSet<Film>();
-
-    @ManyToMany(mappedBy="actors")
-    public Set<Film> getFilms() {
-        return films;
-    }
-
-    public void setFilms(Set<Film> films) {
-        this.films = films;
-    }
-    */
 }

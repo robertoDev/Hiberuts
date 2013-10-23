@@ -4,5 +4,6 @@
 out/
 .idea/
 lib/
+local/
 *.iml
 

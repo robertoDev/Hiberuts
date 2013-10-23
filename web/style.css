@@ -13,22 +13,21 @@ body {
 .imgstyle {
  	margin: 15px;
   	border: 1px solid #777;
-  	padding: 4px;
+  	xpadding: 4px;
 }
 
 a {
     color:#000;
-    xfont-style: italic;
 }
 .main-content {
-    margin: 20px;
+    margin: 15px;
     margin-top:170px;
-    padding: 20px;
-    background: #fff;
+    padding: 15px;
+    background: #ffffc0;
     border:1px solid #999;
-    -moz-box-shadow: 0 0 15px #c8c8c8;
-    -webkit-box-shadow: 0 0 15px #c8c8c8;
-    box-shadow: 0 0 15px #c8c8c8;
+    -moz-box-shadow: 0 0 15px #b8b8b8;
+    -webkit-box-shadow: 0 0 15px #b8b8b8;
+    box-shadow: 0 0 15px #b8b8b8;
 }
 
 .loadingDiv {
@@ -99,7 +98,7 @@ a {
 
 }
 #mainList th{
-background-color: #ffffaa;
+background-color: #ffffc0;
 padding:5px;
 border:1px solid #000;
 color:#000;

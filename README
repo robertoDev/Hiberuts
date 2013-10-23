@@ -1,49 +1,9 @@
-Enable struts in google app engine:
-http://www.mkyong.com/google-app-engine/google-app-engine-struts-2-example/
-
-http://www.alexecollins.com/content/tutorial-hibernate-jpa-part-1/
-http://www.vogella.com/articles/JavaPersistenceAPI/article.html
-http://www.mkyong.com/tutorials/hibernate-tutorials/
-
-
-
-
-Al momento per funzionare su appengine è necessario aggiungere
- <use-google-connector-j>true</use-google-connector-j> nel appengine-web.xml
-e modificare persistence.xml col driver e l'url addatti:
-            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.GoogleDriver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:google:mysql://the-black-cat:blackcat/sakila" />
-            <property name="javax.persistence.jdbc.user" value="root" />
-
-
-
-PROBLEMI!
-
-- La versione 1.8.5 dell'sdk appengine ha problemi con struts:
-java.security.AccessControlException: access denied ("java.io.FilePermission" "jar:file:\D:\sviluppo\web\Hiberuts01\out\artifacts\Hiberuts01_war_exploded\WEB-INF\lib\struts2-core.jar" "read")
-mentre la 1.7.4 funziona
-
-- La 1.7.4 ha problemi con   <use-google-connector-j>true</use-google-connector-j>
-
-- Per funzionare in produzione con il Driver com.mysql.jdbc.GoogleDriver è necessario il <use-google-connector-j>
-
-- In locale con appengine non c'è verso di far utilizzare com.mysql.jdbc.Driver
-perché genera un java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "modifyThreadGroup")
-Caused by: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "modifyThreadGroup")
-	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:366)
-	at java.security.AccessController.checkPermission(AccessController.java:555)
-	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
-	at com.google.appengine.tools.development.DevAppServerFactory$CustomSecurityManager.checkPermission(DevAppServerFactory.java:289)
-	at com.google.appengine.tools.development.DevAppServerFactory$CustomSecurityManager.checkAccess(DevAppServerFactory.java:314)
-	at java.lang.ThreadGroup.checkAccess(ThreadGroup.java:315)
-	at java.lang.Thread.init(Thread.java:376)
-	at java.lang.Thread.<init>(Thread.java:485)
-	at com.mysql.jdbc.NonRegisteringDriver$1.<init>(NonRegisteringDriver.java:90)
-	at com.mysql.jdbc.NonRegisteringDriver.<clinit>(NonRegisteringDriver.java:89)
-
-
-
-
-
-
-
+Hiberuts è un'applicazione J2EE dimostrativa che illustra l'utilizzo di due tra i principali frameworks disponibili
+in ambiente Java J2EE: Hibernate e Struts. L'applicazione è ospitata su server Google App Engine (GAE) e questo richiede
+qualche accortezza in più in quanto GAE implementa solo un subset delle specifiche J2EE.
+Il database utilizzato è il Sakila db, database dimostrativo fornito con MySql che rappresenta la struttura dati
+semplificata di un videonoleggio.
+Sull'utilità del sito c'è poco da dire: ha scopo puramente dimostrativo e permette di navigare attraverso le entità del
+database seguendo le sue relazioni. Le entità coinvolte sono: Attori, Film, Noleggi e Clienti. Le relazioni permettono
+di filtrare gli attori di un film paritcolare, i film interpretati da un attore, le operazioni di noleggio su un
+determinato film e i noeggi di un determinato cliente.
