@@ -2,7 +2,6 @@
 ## Intellij IDEA
 #################
 out/
-.idea/
 local/
-*.iml
+
 
