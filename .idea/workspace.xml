@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eba9eeb-858c-42f4-83a0-2d6f4c125e18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Hiberuts01_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Hiberuts01_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/struts2_2_3_15_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/struts2_2_3_15_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hiberuts01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,46 +99,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExtRental.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/model/ExtRental.java">
+      <file leaf-file-name="EMF.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/EMF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+            <state line="28" column="0" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/model/Customer.java">
+      <file leaf-file-name="InitAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/InitAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+            <state line="7" column="35" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Actor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/model/Actor.java">
+      <file leaf-file-name="Hiberuts01_war_exploded.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/artifacts/Hiberuts01_war_exploded.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+            <state line="11" column="22" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Film.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/model/Film.java">
+      <file leaf-file-name="webContexts.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/webContexts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="25" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.03926097">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/struts.xml">
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="12" selection-start="867" selection-end="867" vertical-scroll-proportion="0.03846154">
+            <state line="7" column="51" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts-default.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/struts2-core.jar!/struts-default.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="32" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/info/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultActionInvocation.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/xwork-core.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="32" selection-start="4071" selection-end="4071" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dispatcher.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/struts2-core.jar!/org/apache/struts2/dispatcher/Dispatcher.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="16" selection-start="4739" selection-end="4739" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecuteOperations.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/struts2-core.jar!/org/apache/struts2/dispatcher/ng/ExecuteOperations.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="16" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,9 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/web/static-infopage/index.html" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/local/README" />
         <option value="$PROJECT_DIR$/src/it/blackcat/hiberuts/EMF.java" />
@@ -173,6 +221,9 @@
         <option value="$PROJECT_DIR$/web/style.css" />
         <option value="$PROJECT_DIR$/web/info/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="$PROJECT_DIR$/.idea/webContexts.xml" />
       </list>
     </option>
   </component>
@@ -230,20 +281,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hiberuts01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hiberuts01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -286,7 +323,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hiberuts01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hiberuts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="info" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,21 +387,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="struts2-2.3.15.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hiberuts01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hiberuts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="hibernate-4.1.8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Hiberuts01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hiberuts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="required" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,11 +423,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scopes" />
+              <option name="myItemId" value="hibernate-4.1.8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,10 +446,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -420,6 +483,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="artifacts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hiberuts01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hiberuts01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -476,15 +553,15 @@
       <recent name="D:\sviluppo\web\Hiberuts\web\images" />
       <recent name="D:\sviluppo\web\Hiberuts\local" />
     </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="it.blackcat.hiberuts.model" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\sviluppo\web\Hiberuts\lib" />
       <recent name="D:\sviluppo\web\Hiberuts\web\images" />
       <recent name="D:\sviluppo\web\Hiberuts\web\info\images" />
       <recent name="D:\sviluppo\web\Hiberuts\web\static-infopage\images" />
       <recent name="D:\sviluppo\web\Hiberuts01\web\static-infopage\images" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="it.blackcat.hiberuts.model" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat">
@@ -668,6 +745,7 @@
     </configuration>
     <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Hiberuts01:war exploded">
           <settings>
@@ -775,7 +853,11 @@
       <created>1385321947806</created>
       <updated>1385321947806</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="libs">
+      <created>1385322569872</created>
+      <updated>1385322569872</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -787,15 +869,15 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30954063" sideWeight="0.2793296" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22206704" sideWeight="0.0" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33240223" sideWeight="0.5792507" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33240223" sideWeight="0.41570604" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32636887" sideWeight="0.6703911" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6703911" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32611832" sideWeight="0.6703911" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24783862" sideWeight="0.6675978" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29748604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3058659" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -870,94 +952,117 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/actors.jsp">
+    <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/xwork-core.jar!/com/opensymphony/xwork2/interceptor/ExceptionMappingInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="17" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0" />
+        <state line="26" column="28" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-5.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/struts2-core.jar!/org/apache/struts2/impl/StrutsActionProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="729" selection-end="729" vertical-scroll-proportion="-8.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/struts2-core.jar!/org/apache/struts2/interceptor/debugging/DebuggingInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="28" selection-start="2092" selection-end="2092" vertical-scroll-proportion="-5.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/tomcat-coyote.jar!/org/apache/tomcat/util/net/JIoEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="20" selection-start="6514" selection-end="6566" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.7.0_05/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="721" column="0" selection-start="26865" selection-end="26865" vertical-scroll-proportion="0.33256352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/xwork-core.jar!/com/opensymphony/xwork2/interceptor/DefaultWorkflowInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="726" selection-end="726" vertical-scroll-proportion="0.44050634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/EMF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="51" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/struts2-core.jar!/struts-default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="32" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/info/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="9" selection-start="2452" selection-end="2452" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/annotations-api.jar!/javax/persistence/PersistenceProperty.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="271" selection-end="271" vertical-scroll-proportion="-4.08" />
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/annotations-api.jar!/javax/persistence/PersistenceUnits.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="308" selection-end="308" vertical-scroll-proportion="0.2027833" />
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/annotations-api.jar!/javax/persistence/PersistenceUnit.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="389" selection-end="389" vertical-scroll-proportion="0.2027833" />
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/annotations-api.jar!/javax/persistence/PersistenceContextType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="160" selection-end="160" vertical-scroll-proportion="0.13001911" />
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/annotations-api.jar!/javax/persistence/PersistenceContexts.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="308" selection-end="308" vertical-scroll-proportion="0.19502868" />
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/annotations-api.jar!/javax/persistence/PersistenceContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="315" selection-end="324" vertical-scroll-proportion="0.1625239" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="67" selection-end="67" vertical-scroll-proportion="0.17221418">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/model/ExtRental.java">
+    <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/xwork-core.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+        <state line="75" column="32" selection-start="4071" selection-end="4071" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/model/Customer.java">
+    <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/struts2-core.jar!/org/apache/struts2/dispatcher/Dispatcher.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+        <state line="85" column="16" selection-start="4739" selection-end="4739" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/model/Actor.java">
+    <entry file="jar://$PROJECT_DIR$/lib/struts2-2.3.15.2/struts2-core.jar!/org/apache/struts2/dispatcher/ng/ExecuteOperations.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+        <state line="13" column="16" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/model/Film.java">
+    <entry file="file://$PROJECT_DIR$/src/it/blackcat/hiberuts/InitAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+        <state line="7" column="35" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Hiberuts01_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="867" selection-end="867" vertical-scroll-proportion="0.03846154">
+        <state line="11" column="22" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/webContexts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.03926097">
           <folding />
         </state>
       </provider>
@@ -1017,7 +1122,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Hiberuts01</last-edited>
+          <last-edited>Struts 2|Web|Hiberuts01</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1041,7 +1146,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>hibernate-4.1.8</last-edited>
+          <last-edited>struts2-2.3.15.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
