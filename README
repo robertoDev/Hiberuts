@@ -1,9 +1,11 @@
-Hiberuts è un'applicazione J2EE dimostrativa che illustra l'utilizzo di due tra i principali frameworks disponibili
-in ambiente Java J2EE: Hibernate e Struts. L'applicazione è ospitata su server Google App Engine (GAE) e questo richiede
-qualche accortezza in più in quanto GAE implementa solo un subset delle specifiche J2EE.
-Il database utilizzato è il Sakila db, database dimostrativo fornito con MySql che rappresenta la struttura dati
+Hiberuts ï¿½ un'applicazione J2EE dimostrativa che illustra l'utilizzo di due tra i principali frameworks disponibili
+in ambiente Java J2EE: Hibernate e Struts. L'applicazione ï¿½ ospitata su server Google App Engine (GAE) e questo richiede
+qualche accortezza in piï¿½ in quanto GAE implementa solo un subset delle specifiche J2EE.
+Il database utilizzato ï¿½ il Sakila db, database dimostrativo fornito con MySql che rappresenta la struttura dati
 semplificata di un videonoleggio.
-Sull'utilità del sito c'è poco da dire: ha scopo puramente dimostrativo e permette di navigare attraverso le entità del
-database seguendo le sue relazioni. Le entità coinvolte sono: Attori, Film, Noleggi e Clienti. Le relazioni permettono
+Sull'utilitï¿½ del sito c'ï¿½ poco da dire: ha scopo puramente dimostrativo e permette di navigare attraverso le entitï¿½ del
+database seguendo le sue relazioni. Le entitï¿½ coinvolte sono: Attori, Film, Noleggi e Clienti. Le relazioni permettono
 di filtrare gli attori di un film paritcolare, i film interpretati da un attore, le operazioni di noleggio su un
 determinato film e i noeggi di un determinato cliente.
+
+MODIFICA da PGB
