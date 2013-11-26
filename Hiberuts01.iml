@@ -28,7 +28,7 @@
         <configuration>
           <password>df9fdfcddfc5dfc5dfcddfc6dfcfdfdadfdd</password>
           <persistence-api>JPA</persistence-api>
-          <sdk-home-path>$MODULE_DIR$/../../appengine-java-sdk-1.8.5</sdk-home-path>
+          <sdk-home-path>C:/appengine-java-sdk-1.8.5</sdk-home-path>
           <email>roberto.girelli@gmail.com</email>
         </configuration>
       </facet>
