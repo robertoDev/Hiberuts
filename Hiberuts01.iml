@@ -51,9 +51,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 6" level="application_server_libraries" />
     <orderEntry type="library" name="struts2-2.3.15.2" level="project" />
     <orderEntry type="library" name="hibernate-4.1.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 7" level="application_server_libraries" />
   </component>
 </module>
 
