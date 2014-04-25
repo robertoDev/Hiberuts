@@ -27,7 +27,8 @@
       <facet type="google-app-engine" name="Google App Engine">
         <configuration>
           <password>df9fdfcddfc5dfc5dfcddfc6dfcfdfdadfdd</password>
-          <sdk-home-path>D:/sviluppo/appengine-java-sdk-1.8.5</sdk-home-path>
+          <persistence-api>JPA</persistence-api>
+          <sdk-home-path>C:/appengine-java-sdk-1.8.5</sdk-home-path>
           <email>roberto.girelli@gmail.com</email>
         </configuration>
       </facet>
@@ -37,7 +38,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="NewPersistenceUnit" />
+          <factory-entry name="NewPersistenceUnit" value="a15c29fd-edf6-46a5-8f86-d87e92aa6c94" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/META-INF/persistence.xml" />
       </configuration>

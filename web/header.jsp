@@ -12,9 +12,9 @@
               </div>
               <div id="headContacts">
                   <a href="http://www.linkedin.com/profile/view?id=221023453" title="Linkedin" target="_new"><img src="images/linkedin.png"/></a>
-                  <a  href="https://plus.google.com/104253129714256975554/about" title="Google Plus" target="_new"><img src="images/googleplus.png"/></a>
+                  <a  href="https://plus.google.com/+RobertoGirelli/about" title="Google Plus" target="_new"><img src="images/googleplus.png"/></a>
                   <a href="mailto:roberto.girelli@gmail.com?subject=Blackcat Lab" title="Send email" target="_new"><img src="images/email.png"/></a>
-                  &copy; 2013 by Roberto Girelli (roberto.girelli@gmail.com)
+                  &copy; 2014 by Roberto Girelli (roberto.girelli@gmail.com)
               </div>
 
               <!--br><br><img src="favicon.ico" width="20" style="position: relative;top:-5px;" align="bottom"> &nbsp;&copy; 2013 Blackcat.<br-->
